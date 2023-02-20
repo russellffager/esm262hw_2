@@ -1,6 +1,6 @@
 ---
 title: "esmhw_2"
-author: "Russell Fager"
+author: "Russell, Sage, and Daija"
 date: "2023-02-20"
 output: html_document
 ---
