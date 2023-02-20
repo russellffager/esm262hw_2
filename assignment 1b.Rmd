@@ -1,0 +1,37 @@
+---
+title: "esmhw_2"
+author: "Russell Fager"
+date: "2023-02-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Program Design
+
+1. The goal of this program is to compute the use-phase emissions of a battery electric vehicle (BEV) based on how many miles it has driven.
+
+---
+
+## A simple function example
+
+Contract
+
+*Input*: miles driven (mi) (as a single value in time or a time series)
+
+*Output*: Use-phase emissions (kg CO2e)  
+
+*Parameters*: Charge_{Eff} charging efficiency, batt_size battery size (kWh), range (range of vehicle), grid intesnity (kg CO2e/kWh)
+
+What the function will do - compute use-phase emissions of a BEV using the following equation - *body* of the function 
+
+$UPe = md * ((bs / r) / Charge_{Eff}) * gi$
+
+UPe is Use Phase emissions in kg co2e, md is miles driven (mi), bs is battery size in kWh, Charge_{Eff} is a is a coefficient of efficiency ranging from 0 to 1, gi is average grid intensity in kg co2e/kWh. 
+
+## Flow chart link:
+https://docs.google.com/presentation/d/16j2c10ARtoHoMCgOkjzwCoJ5bTxkZTMVXRy9roDwphg/edit#slide=id.g1b6469b9e8b_0_0
+
+---
